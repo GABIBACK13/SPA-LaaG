@@ -1,0 +1,19 @@
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100dvh;
+  background-color: var(--off-color);
+  color: var(--text-color);
+}

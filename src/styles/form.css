@@ -1,8 +1,4 @@
-:root {
-  --header-height: 177px;
-  --nav-height: 85px;
-}
-.add-collection {
+.main_container {
   position: absolute;
   bottom: var(--nav-height);
   display: flex;
@@ -15,7 +11,7 @@
   background-color: var(--off-color);
   z-index: 10;
 }
-.add-collection__form {
+.form {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
@@ -23,7 +19,7 @@
   min-width: min(90%, 800px);
   padding-top: 2rem;
 }
-.add-collection__group {
+.form__group {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
@@ -31,14 +27,14 @@
   gap: 3rem;
   width: 100%;
 }
-.add-collection__input {
+.form__input {
   display: flex;
   width: 100%;
   padding: 4px;
   justify-content: space-between;
   align-items: center;
 }
-.add-collection__input input {
+.form__input input {
   width: 78%;
   min-height: 60px;
   font-size: 1.05rem;
@@ -50,11 +46,11 @@
     text-align: center;
   }
 }
-.add-collection__input input:focus {
+.form__input input:focus {
   border: 3px solid var(--primary-color);
   outline-color: var(--primary-color-opacity);
 }
-.add-collection__input label input {
+.form__input label input {
   min-height: 35px;
   cursor: pointer;
 }

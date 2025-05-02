@@ -13,19 +13,21 @@
 }
 
 :root[theme="light"] {
-  --primary-color: rgb(0, 84, 84);
-  --primary-color-opacity: rgba(0, 200, 218, 0.54);
-  --secondary-color: rgb(0, 225, 255);
+  --primary-color: #005454;
+  --primary-color-opacity: #00c8da8a;
+  --secondary-color: #8cdede;
   --off-color: #e2e2e2;
   --on-color: #cacaca;
   --text-color: #121212;
+  --light-color: #567e52fb;
 }
 
 :root[theme="dark"] {
-  --primary-color: aqua;
-  --primary-color-opacity: rgba(0, 255, 255, 0.4);
-  --secondary-color: black;
+  --primary-color: #00ffff;
+  --primary-color-opacity: #00ffff66;
+  --secondary-color: #052828;
   --off-color: #121212;
   --on-color: #1a1a1a;
   --text-color: #efefef;
+  --light-color: #7d7a60;
 }

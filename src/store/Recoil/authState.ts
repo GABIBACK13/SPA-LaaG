@@ -8,6 +8,7 @@ export interface AuthData {
     userID: number;
     username:string;
   } | null;
+  isLoggedIn:boolean;
 }
 
 const localData = localStorage.getItem('auth');

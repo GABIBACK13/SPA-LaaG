@@ -1,0 +1,11 @@
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  min-height: 30vh;
+}
+
+.form {
+  gap: 1rem;
+}
